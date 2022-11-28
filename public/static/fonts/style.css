@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "GothicA1";
+  src: url("GothicA1-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothicA1";
+  src: url("GothicA1-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothicA1";
+  src: url("GothicA1-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
