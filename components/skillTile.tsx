@@ -18,9 +18,9 @@ export default function SkillTile({ name, img, rate, des }: props) {
   return (
     <>
       <div className="p-4 lg:w-1/3">
-        <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+        <div className="h-full flex sm:flex-row flex-col sm:items-start items-center sm:justify-start justify-center text-center sm:text-left sm:align">
           <div className="flex-grow sm:pl-8">
-            <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <div className="flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <Image
                 alt={`${name}_img`}
                 className="flex-shrink-0 rounded-lg object-cover object-center sm:mb-0 mb-4"
