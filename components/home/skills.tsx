@@ -25,7 +25,7 @@ export default function Skills() {
           Front-End
         </h1>
       </div>
-      <div className="flex flex-wrap -m-4">
+      <div className="flex flex-wrap -m-4 mr-3 ml-3">
         <SkillTile
           name="React"
           img={ReactLogo}
@@ -67,7 +67,7 @@ export default function Skills() {
           Back-End
         </h1>
       </div>
-      <div className="flex flex-wrap -m-4">
+      <div className="flex flex-wrap -m-4 mr-3 ml-3">
         <SkillTile
           name="Spring"
           img={Spring}
@@ -98,7 +98,7 @@ export default function Skills() {
           Project management tool
         </h1>
       </div>
-      <div className="flex flex-wrap -m-4">
+      <div className="flex flex-wrap -m-4 mr-3 ml-3">
         <SkillTile
           name="Jira"
           img={Jira}
