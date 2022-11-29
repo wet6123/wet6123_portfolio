@@ -2,6 +2,8 @@ import SkillTile from "./../skillTile";
 import ReactLogo from "./../../public/front/React_logo.png";
 import JsTsLogo from "./../../public/front/JS_TS_logo.png";
 import HtmlCssLogo from "./../../public/front/HTML_CSS_logo.png";
+import Spring from "./../../public/back/Spring_logo.png";
+import MySQL from "./../../public/back/Mysql_logo.png";
 
 export default function Skills() {
   return (
@@ -11,6 +13,11 @@ export default function Skills() {
           SKILLS
         </h1>
       </div>
+      {/* 
+      
+      프론트엔드
+
+      */}
       <div className="flex flex-col text-center w-full mb-5">
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
           Front-End
@@ -45,6 +52,37 @@ export default function Skills() {
             "- 반응형, 적응형 구현 가능합니다.",
             "- Bootstrap 등의 CSS 프레임워크를 사용할 수 있습니다.",
             "- styled-component 를 활용하여 CSS-in-JS 방식으로 작성할 수 있습니다.",
+          ]}
+        />
+      </div>
+      {/* 
+      
+      백엔드
+      
+      */}
+      <div className="flex flex-col text-center w-full mb-5">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          Back-End
+        </h1>
+      </div>
+      <div className="flex flex-wrap -m-4">
+        <SkillTile
+          name="Spring"
+          img={Spring}
+          rate={3}
+          des={[
+            "- Spring (Boot, Core)를 활용하여 서버를 구축할 수 있습니다.",
+            "- JPA를 사용하여 서버를 개발한 경험이 있습니다.",
+            "- Swagger, Postman 등 API 테스트 툴을 사용할 수 있습니다.",
+          ]}
+        />
+        <SkillTile
+          name="MySQL"
+          img={MySQL}
+          rate={3}
+          des={[
+            "- MySQL을 프로젝트에 사용한 경험이 있습니다.",
+            "- 프로젝트에 필요한 DB를 설계하고 테스트에 필요한 데이터을 관리한 경험이 있습니다.",
           ]}
         />
       </div>
