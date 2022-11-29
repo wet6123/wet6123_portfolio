@@ -71,7 +71,7 @@ export default function Skills() {
         <SkillTile
           name="Spring"
           img={Spring}
-          rate={2}
+          rate={3}
           des={[
             "- Spring (Boot, Core)를 활용하여 서버를 구축할 수 있습니다.",
             "- JPA를 사용하여 서버를 개발한 경험이 있습니다.",
