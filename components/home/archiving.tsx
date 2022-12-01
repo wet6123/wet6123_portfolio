@@ -12,7 +12,7 @@ export default function Archiving() {
         </div>
         <section className="text-gray-600 body-font">
           <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
-            <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
+            <div className="md:w-1/2 md:pr-12 md:pl-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-gray-200">
               <Image
                 alt="GitHub_img"
                 className="flex-shrink-0 rounded-lg object-cover object-center mb-0"
@@ -20,14 +20,25 @@ export default function Archiving() {
                 width={150}
                 height={150}
               />
+              <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">
+                프로그램 소스코드를 저장하고 관리합니다.
+              </h2>
               <p className="leading-relaxed text-base">
-                Locavore cardigan small batch roof party blue bottle blog
-                meggings sartorial jean shorts kickstarter migas sriracha
-                church-key synth succulents. Actually taiyaki neutra, distillery
-                gastropub pok pok ugh.
+                - 과거 프로젝트의 소스코드
               </p>
-              <a className="text-indigo-500 inline-flex items-center mt-4">
-                Learn More
+              <p className="leading-relaxed text-base">
+                - 학부 재학 당시 수강했던 수업의 과제 소스코드
+              </p>
+              <p className="leading-relaxed text-base">
+                - 개발 공부를 하면서 사용한 자료
+              </p>
+              <a
+                className="text-indigo-500 inline-flex items-center mt-4"
+                href="https://github.com/wet6123"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                방문하기
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -41,53 +52,7 @@ export default function Archiving() {
                 </svg>
               </a>
             </div>
-            <div className="flex flex-col md:w-1/2 md:pl-12">
-              <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="flex flex-wrap list-none -mb-1">
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    First Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Second Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Third Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Fourth Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Fifth Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Sixth Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Seventh Link
-                  </a>
-                </li>
-                <li className="lg:w-1/3 mb-1 w-1/2">
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Eighth Link
-                  </a>
-                </li>
-              </nav>
-            </div>
+            <div className="flex flex-col md:w-1/2 md:pl-12"></div>
           </div>
         </section>
       </div>
