@@ -1,6 +1,9 @@
 ## Portfolio Link
 https://wet6123-portfolio.vercel.app/
 
+배준성의 포트폴리오
+본 페이지는 Next.js로 제작되고 vercel로 배포되었습니다.
+SEO적용
 
 <!-- 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
