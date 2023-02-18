@@ -1,5 +1,6 @@
 import Image from "next/image";
 import GitHub from "./../../public/GitHub_logo.png";
+import styles from "styles/archiving.module.scss";
 
 export default function Archiving() {
   return (
@@ -53,7 +54,7 @@ export default function Archiving() {
               </a>
             </div>
             <div className="md:w-1/2 md:pr-12 md:pl-12 md:py-8 mb-10 md:mb-0 pb-10">
-              <div className="flex">
+              <div className="flex h-[84px] items-center">
                 <svg
                   width="44"
                   height="44"
@@ -67,7 +68,7 @@ export default function Archiving() {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <span>Velog</span>
+                <span className={styles.fira_mono}>Velog</span>
               </div>
 
               <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">

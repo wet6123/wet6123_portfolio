@@ -18,3 +18,10 @@
   font-weight: 500;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "FiraMono";
+  src: url("FiraMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
