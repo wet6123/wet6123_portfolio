@@ -3,7 +3,29 @@ https://wet6123-portfolio.vercel.app/
 
 배준성의 포트폴리오
 본 페이지는 Next.js로 제작되고 vercel로 배포되었습니다.
-SEO적용
+  
+SEO적용.
+  
+### 왜 Next.js 인가?  
+- Page 기반으로 Routing 이 간편
+```
+ 파일 경로 pages에 원하는 경로를 디렉토리로 생성한 뒤에 파일을 tsx/jsx 파일을 생성한다면 그대로 url이 된다.
+```
+- Pre-rendering
+```
+ SSR(SSG) 환경을 직접 구현할 필요 없이 쉽게 사용 가능하다.
+ SSR : 빌드 시 HTML 파일 구성. (default)
+ SSR : page에서 getServerSideProps() 사용 시, 요청마다 서버에서 HTML을 새로 구성.
+```
+- 코드 스플리팅 & pre-fetch
+```
+ 코드 스플리팅 : 번들링된 js파일을 페이지별 js파일로 분리
+ pre-fetch : 관련 데이터를 미리 로딩
+  
+ 페이지를 요청 시 코드 스플리팅을 통해 빠르게 페이지를 로딩, 해당 페이지에 링크가 있다면 연결된 페이지의 js파일을 pre-fetch하여 페이지 전환을 빠르게한다.
+```
+
+
 
 <!-- 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
