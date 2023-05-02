@@ -7,7 +7,7 @@ export default function Archiving() {
     <>
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-5xl text-3xl font-bold title-font mb-4 text-gray-900">
             ARCHIVING
           </h1>
         </div>
