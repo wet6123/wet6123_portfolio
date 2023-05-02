@@ -1,17 +1,7 @@
 import Image from "next/image";
-// import User from "img/aboutMe/user.png";
-import Calendar from "img/aboutMe/cal.png";
-import Study from "img/aboutMe/study.png";
-import Work from "img/aboutMe/work.png";
-import Mail from "img/aboutMe/mail.png";
-import Notion from "img/aboutMe/note.png";
+import Link from "next/link";
 
 export default function AboutMe() {
-  const openTab = () =>
-    window.open(
-      "https://mysterious-cesium-158.notion.site/PORTFOLIO-9ae6a50c69d94d92a50c6be27e751e92"
-    );
-
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -117,12 +107,13 @@ export default function AboutMe() {
                 />
                 <div className="flex-grow">
                   <h2 className="text-gray-900 title-font font-medium">
-                    노션으로 보기
+                    페이지가 보이지 않으신가요?
                   </h2>
-                  <a href="https://mysterious-cesium-158.notion.site/PORTFOLIO-9ae6a50c69d94d92a50c6be27e751e92">
-                    <p className="text-gray-500" onClick={() => openTab}>
-                      링크
-                    </p>
+                  <a
+                    target="_blank"
+                    href="https://mysterious-cesium-158.notion.site/PORTFOLIO-9ae6a50c69d94d92a50c6be27e751e92"
+                  >
+                    <p className="text-gray-500">노션으로 보기</p>
                   </a>
                 </div>
               </div>
