@@ -57,9 +57,12 @@ export const PjtTile = (pjt: {
               <p>기여도: {contribute}%</p>
             </div>
             <p className="my-2">
-              {skill && skill.map((stack: any) => <Badge item={stack} />)}
+              {skill &&
+                skill.map((stack: any) => (
+                  <Badge item={stack} key={`${stack} + ${id}`} />
+                ))}
             </p>
-            <a target="_blank" href={link}>
+            <a target="_blank" href={link} rel="noreferrer">
               <button className="mt-2 mb-4 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                 자세히보기
               </button>

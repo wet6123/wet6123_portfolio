@@ -104,6 +104,7 @@ export default function AboutMe() {
                   <a
                     target="_blank"
                     href="https://mysterious-cesium-158.notion.site/PORTFOLIO-9ae6a50c69d94d92a50c6be27e751e92"
+                    rel="noreferrer"
                   >
                     <p className={styles.content}>노션으로 보기</p>
                   </a>
