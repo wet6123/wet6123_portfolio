@@ -78,6 +78,24 @@ const pjtData = [
       "운동별 애니메이션 제작",
     ],
   },
+  {
+    id: 4,
+    img: "/img/pjt/everypt.png",
+    titles: "모두의 PT",
+    semiTitle: "회원 기반 유튜브 운동 영상 웹 서비스",
+    date: "2022.05.16 ~ 2022.05.26",
+    team: "6명 (프론트엔드 3, 백엔드 3)",
+    part: "프론트엔드",
+    contribute: 20,
+    skill: ["Spring Boot", "Vue.js", "MySQL"],
+    link: "https://github.com/wet6123/Everyones-PT",
+    division: "SSAFY 1학기 최종 프로젝트",
+    list: [
+      "Vue의 Intersection Observer을 활용한 무한 스크롤 구현",
+      "창 크기 변경에 따른 반응형 설계",
+      "영상 검색 및 정렬 기능 구현",
+    ],
+  },
 ];
 
 export default function Projects() {
