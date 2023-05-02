@@ -1,4 +1,5 @@
 import Image from "next/image";
+import styles from "styles/skill.module.scss";
 
 type props = {
   name: string;
@@ -29,9 +30,8 @@ export default function SkillTile({ name, img, rate, des }: props) {
                 height={150}
               />
               <div className="sm:pl-8">
-                <h2 className="title-font font-medium text-lg text-gray-900">
-                  {name}
-                </h2>
+                {/* <h2 className="title-font font-medium text-lg text-gray-900"> */}
+                <h2 className={styles.title}>{name}</h2>
                 <h3 className="text-gray-500 mb-3">
                   {array.map((arr, idx) => (
                     <span key={idx}>★</span>
@@ -42,9 +42,9 @@ export default function SkillTile({ name, img, rate, des }: props) {
                 </h3>
               </div>
             </div>
-            <div>
+            <div className="mb-8">
               {des.map((arr, idx) => (
-                <p className="mb-4" key={idx}>
+                <p className={styles.content} key={idx}>
                   {arr}
                 </p>
               ))}

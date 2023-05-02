@@ -6,6 +6,7 @@ import Spring from "./../../public/back/Spring_logo.png";
 import MySQL from "./../../public/back/Mysql_logo.png";
 import Jira from "./../../public/manage/Jira_logo.png";
 import Git from "./../../public/manage/Git_logo.png";
+import styles from "styles/skill.module.scss";
 
 export default function Skills() {
   return (
@@ -22,7 +23,7 @@ export default function Skills() {
 
       */}
         <div className="flex flex-col text-center w-full mb-5">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
             Front-End
           </h1>
         </div>
@@ -64,7 +65,7 @@ export default function Skills() {
       
       */}
         <div className="flex flex-col text-center w-full mb-5 mt-10">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
             Back-End
           </h1>
         </div>
@@ -95,7 +96,7 @@ export default function Skills() {
       
       */}
         <div className="flex flex-col text-center w-full mb-5 mt-10">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4 text-gray-900">
             Project management tool
           </h1>
         </div>
