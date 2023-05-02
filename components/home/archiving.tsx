@@ -53,7 +53,7 @@ export default function Archiving() {
                 </svg>
               </a>
             </div>
-            <div className="md:w-1/2 md:pr-12 md:pl-12 md:py-8 mb-10 md:mb-0 pb-10">
+            {/* <div className="md:w-1/2 md:pr-12 md:pl-12 md:py-8 mb-10 md:mb-0 pb-10">
               <div className="flex h-[84px] items-center">
                 <svg
                   width="44"
@@ -102,7 +102,7 @@ export default function Archiving() {
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>
