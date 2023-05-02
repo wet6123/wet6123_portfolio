@@ -21,18 +21,14 @@ export default function Archiving() {
                 width={150}
                 height={150}
               />
-              <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">
+              <h2 className={styles.title}>
                 프로그램 소스코드를 저장하고 관리합니다.
               </h2>
-              <p className="leading-relaxed text-base">
-                - 과거 프로젝트의 소스코드
-              </p>
-              <p className="leading-relaxed text-base">
+              <p className={styles.content}>- 과거 프로젝트의 소스코드</p>
+              <p className={styles.content}>
                 - 학부 재학 당시 수강했던 수업의 과제 소스코드
               </p>
-              <p className="leading-relaxed text-base">
-                - 개발 공부를 하면서 사용한 자료
-              </p>
+              <p className={styles.content}>- 개발 공부를 하면서 사용한 자료</p>
               <a
                 className="text-indigo-500 inline-flex items-center mt-4"
                 href="https://github.com/wet6123"
@@ -71,16 +67,16 @@ export default function Archiving() {
                 <span className={styles.fira_mono}>Velog</span>
               </div>
 
-              <h2 className="title-font font-semibold text-gray-800 tracking-wider text-sm mb-3">
+              <h2 className={styles.title}>
                 공부했던 내용을 기록하고 공유하기 위한 블로그입니다.
               </h2>
-              <p className="leading-relaxed text-base">
+              <p className={styles.content}>
                 - 개발하면서 마주쳤던 문제들과 해결법
               </p>
-              <p className="leading-relaxed text-base">
+              <p className={styles.content}>
                 - 개발자로서 성장하기 위해 공부했던 내용을 정리
               </p>
-              <p className="leading-relaxed text-base">
+              <p className={styles.content}>
                 - 지식을 공유하며 개발자 커뮤니티에 기여
               </p>
               <a
